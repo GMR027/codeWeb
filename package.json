@@ -1,0 +1,33 @@
+{
+  "name": "codeweb",
+  "version": "1.0.0",
+  "description": "Pagina web para codigos basicos",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass --watch src/scss:build/css",
+    "hola": "gulp hola",
+    "dev": "gulp dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GMR027/codeWeb.git"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "sass"
+  ],
+  "author": "Edgar Monsalvo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GMR027/codeWeb/issues"
+  },
+  "homepage": "https://github.com/GMR027/codeWeb#readme",
+  "devDependencies": {
+    "gulp": "^5.0.0",
+    "gulp-sass": "^6.0.1",
+    "sass": "^1.89.0"
+  }
+}
